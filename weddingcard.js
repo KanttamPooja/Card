@@ -26,7 +26,7 @@ function validateForm(){
     if(passwordInput.value.trim() == ''){
         setError(passwordInput, 'Password can not be empty');
     }
-    else if(passwordInput.value == 'Annadhan'){
+    else if(passwordInput.value == '#Annadhan'){
         setSuccess(passwordInput);
     }
     else{
