@@ -1,7 +1,13 @@
-.carousel-inner > .carousel-item > img{
-    height: 75vh;
-    width: 75vw;
-}
+ .carousel-inner .carousel-item  h5{
+    font-size : 25px;
+    color: brown;
+} 
+
+.carousel-inner .carousel-item  p{
+    font-size : 25px;
+    color: blueviolet;
+} 
+
 .main{
     font-size :75px;
     color: orangered;
