@@ -1,0 +1,58 @@
+.main{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+
+.mid{
+    font-size:30px;
+    text-align: center;
+    color: pink;
+}
+
+.purpose{
+    font-size: 50px;
+    text-align:center;
+    color: red;
+    font-style: italic;
+    border: 10px solid green;
+    border-radius: 50px;
+    animation-name: pooja;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    box-shadow: 5px 10px #888888;
+}
+
+@keyframes pooja {
+    from{
+        border-radius : 50px
+    }
+    to{
+        border-radius : 100px
+    }
+    
+}
+
+.purpose:hover{
+    background-color: pink;
+}
+
+.ma{
+    text-align: center;
+}
+
+button{
+    color:white;
+    background-color: #2546cc;
+    width: 400px;
+    border-width: 0px;
+    border-radius:20px;
+    font-size: 50px;
+    font-style: italic;
+    padding-top:6px;
+    padding-bottom : 6px
+}
+
+button:hover{
+    opacity: 0.3;
+}
